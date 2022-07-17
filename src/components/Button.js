@@ -6,7 +6,7 @@ function Button({ label, backgroundColor = "red", size = "md", onClick }) {
     if (size === "lg") scale = 1.5
     const style = {
         backgroundColor,
-        padding: `${scale * 0.5}rem ${scale * 1} rem`,
+        padding: `${scale * 0.5}rem ${scale * 1}rem`,
         border: "none"
     }
     return (
